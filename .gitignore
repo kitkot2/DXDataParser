@@ -1,0 +1,80 @@
+# ==================== Python ====================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build/installation files
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==================== R ====================
+# Session files
+.RData
+.Rhistory
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Output files
+*.Rout
+*.pdf
+*.html
+
+# Package files
+*.tar.gz
+*.check/
+
+# Knitr cache
+*_cache/
+/cache/
+
+# Data files
+*.Rdata
+*.rda
+*.rds
+
+
+.DS_Store
+Thumbs.db
+*.log
+*.sqlite
+*.tmp
+*.bak
