@@ -11,11 +11,12 @@ Automated pipeline for converting Agilent HPLC proprietary data formats to open 
 | Input Format | Output Format |
 |--------------|---------------|
 | .dx          | .csv          |
+| .uv          | .csv          |
 | .scml        | _scml.txt     |
 | .acaml       | _acaml.txt    |
 | .acmd        | _acmd.txt     |
 | .mfx         | _mfx.txt      |
-| .xml         | .txt.         |
+| .xml         | .txt          |
 
 ## Disclaimer
 ⚠️ **Important Notice**:
@@ -70,6 +71,8 @@ python main.py
     - Print detailed logs for every operation
 
 4. The final results will appear in the Output/ folder with cleaned .txt and .csv files.
+
+5. If you dont need to parse .xml files just delete or comment line 186 in main.py
 
 ## 📬 Contacts
 
