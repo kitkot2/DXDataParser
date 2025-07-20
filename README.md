@@ -1,7 +1,7 @@
 # Agilent HPLC Data Processing Pipeline
 
 ## About
-Automated pipeline for converting Agilent HPLC proprietary data formats to open standards. TESTED ONLY WITH DATA FROM Agilent HPLC 1260 II.
+Automated pipeline for converting Agilent HPLC proprietary data formats to open standards. TESTED ONLY WITH DATA FROM Agilent HPLC 1260 II. Uses chromConverter R library for .dx and .uv files.
 
 ### Features
 - Batch processing of multiple files
