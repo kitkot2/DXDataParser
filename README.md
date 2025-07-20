@@ -24,26 +24,26 @@ Automated pipeline for converting Agilent HPLC proprietary data formats to open 
 
 ## Installation
 
-# Clone repository
+### Clone repository
 ```bash
 git clone https://github.com/kitkot2/DXDataParser.git
 ```
 ```bash
 cd DXDataParser
 ```
+Create virtual environment
 ```bash
-# Create virtual environment
-python -m venv venv
+    python -m venv venv
 ```
 ```bash
-source venv/bin/activate  # Linux/MacOS
-.\venv\Scripts\activate   # Windows
+    source venv/bin/activate  # Linux/MacOS
+    .\venv\Scripts\activate   # Windows
 ```
+Install dependencies
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
-Install R
+### Install R
 
 ## ▶️ Usage
 
@@ -56,7 +56,7 @@ Install R
 2. Run the main pipeline script from the root directory:
 
 ```bash
-python main.py
+    python main.py
 ```
 
 3. The script will execute the following steps:
@@ -64,7 +64,7 @@ python main.py
     - Process each file type in sequence:
         * .dx, .uv → .csv
         * .scml → _scml.xml
-        * .acaml, .acmd, .mfx → _<ext>.xml
+        * .acaml, .acmd, .mfx → _acaml/acmd/mfx.xml
         * .xml → timestamped .txt
     - Delete intermediate files after successful conversion
     - Print detailed logs for every operation
