@@ -48,7 +48,7 @@ Install R
 ## ▶️ Usage
 
 1. Place your input data folders inside the `Data_to_parse/` directory. Each folder can contain any combination of the following file types:
-   - `.dx`
+   - `.dx`, `.uv`
    - `.scml`
    - `.acaml`, `.acmd`, `.mfx`
    - `.xml`
@@ -62,7 +62,7 @@ python main.py
 3. The script will execute the following steps:
     - Copy all folders from Data_to_parse/ to Output/
     - Process each file type in sequence:
-        * .dx → .csv
+        * .dx, .uv → .csv
         * .scml → _scml.xml
         * .acaml, .acmd, .mfx → _<ext>.xml
         * .xml → timestamped .txt
