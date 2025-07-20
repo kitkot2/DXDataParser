@@ -1,7 +1,7 @@
 # Agilent HPLC Data Processing Pipeline
 
 ## About
-Automated pipeline for converting Agilent HPLC proprietary data formats to open standards.
+Automated pipeline for converting Agilent HPLC proprietary data formats to open standards. TESTED ONLY WITH DATA FROM Agilent HPLC 1260 II.
 
 ### Features
 - Batch processing of multiple files
@@ -33,15 +33,15 @@ cd DXDataParser
 ```
 Create virtual environment
 ```bash
-    python -m venv venv
+python -m venv venv
 ```
 ```bash
-    source venv/bin/activate  # Linux/MacOS
-    .\venv\Scripts\activate   # Windows
+source venv/bin/activate  # Linux/MacOS
+.\venv\Scripts\activate   # Windows
 ```
 Install dependencies
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ### Install R
 
@@ -56,7 +56,7 @@ Install dependencies
 2. Run the main pipeline script from the root directory:
 
 ```bash
-    python main.py
+python main.py
 ```
 
 3. The script will execute the following steps:
